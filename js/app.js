@@ -13,7 +13,6 @@ var myApp = angular.module('myApp',[]);
 		}
 		// Debits account balance when a user inputs a Debit amount.
 		function subtract(num) {
-			console.log(num);
 			return $scope.balance -= parseFloat(num);
 		}
 	
