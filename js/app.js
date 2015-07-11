@@ -9,12 +9,12 @@ var myApp = angular.module('myApp',[]);
 		
 		// credits account balance when a user inputs a Deposit amount.
 		function add(num) {
-			return $scope.balance += parseInt(num);
+			return $scope.balance += parseFloat(num);
 		}
 		// Debits account balance when a user inputs a Debit amount.
 		function subtract(num) {
 			console.log(num);
-			return $scope.balance -= parseInt(num);
+			return $scope.balance -= parseFloat(num);
 		}
 	
 	}]);
